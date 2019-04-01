@@ -1,11 +1,11 @@
-title: OCTO chti
-email: chti@octo.com
+title: OCTO Provence
+email: provence@octo.com
 description: |
-    OCTO chti website
+    OCTO Provence website
 baseurl: ''
-url: 'https://chti.octo.com'
-twitter: 'https://twitter.com/octochti'
-google_analytics: UA-134710918-1
+url: 'https://provence.octo.com'
+twitter: 'https://twitter.com/octoprovence'
+google_analytics:
 
 markdown: kramdown
 theme: minima
