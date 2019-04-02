@@ -1,20 +1,28 @@
-- poly: BALE
-  name: Baptiste Lecocq
+- poly: GAMA
+  name: Gael Mareau
   bio: |
-      Je m’appelle Baptiste, je travaille actuellement chez OCTO Nord. Je maîtrise principalement les langages et frameworks du monde Javascript.
-      Je suis également impliqué dans un certain nombre de méthodes liées à l’agilité et au software craftmanship pour faire grandir les équipes que j’accompagne.
+      Je m’appelle Gael, je suis violent
+  image_url: https://s3.amazonaws.com/askbob/users/photos/1317/big/Gae%CC%88l_Mareau.jpg?1526980341
 
-- poly: JDU
-  name: Jonathan Duberville
+- poly: TLI
+  name: Thomas Lissajoux
   bio: |
-      Je suis animé par la joie de construire des logiciels de qualité (un logiciel opérationnel plus qu'une documentation exhaustive) et j'ai pour vocation de vivre pleinement l’agilité et le développement logiciel en suivant la philosophie Software Craftsmanship.
+      Wesh je suis trop un ouf
+  image_url: https://s3.amazonaws.com/askbob/users/photos/1064/big/portrait-200.jpg?1526458851
 
-- poly: OLWU
-  name: Olivier Wulveryck
+- poly: MAK
+  name: Michael Akbaraly
   bio:
+  image_url: https://s3.amazonaws.com/askbob/users/photos/275/big/MAK.jpg?1476373609
 
-- poly: JJA
-  name: Julien Jakubowski
+- poly: JDB
+  name: Jean Damien Blanc
   bio: |
-      Consultant-codeur, développeur de développeurs, CTO OCTO Nord.
-      Co-auteur de Culture Code, animateur du Ch'ti JUG, de Nord Agile, du meetup Software Craftsmanship Lille.
+      J'aime les olives
+  image_url: https://s3.amazonaws.com/askbob/users/photos/264/big/170.jpg?1408959180
+
+- poly: NCA
+  name: Nicolas Cappello
+  bio: |
+      #Bienveillance
+  image_url: https://s3.amazonaws.com/askbob/users/photos/296/big/CINE0758.jpg?1454080867
