@@ -5,14 +5,11 @@
             <img src="{{member.image_url}}"/>
         </div>
         <div class="flipcard_back">
-            <div class="flipcard_description">
-                <h3>{{member.name}}</h3>
-                <p>{{member.bio}}</p>
-                <button title='Visit Website' onclick="window.open('https://jakehong0521.github.io')"><i
-                    class="fa fa-external-link"></i>Bio</button>
-                <button title="Github Page"
-                        onclick="window.open('https://github.com/jakehong0521/jakehong0521.github.io')"><i
-                    class="fa fa-github"></i></button>
+            <div class="flipcard_description text-center">
+                <a href="bios.html#{{member.name | slugify}}" target="_blank">
+                    <h3>{{member.name}}</h3>
+                    <p class="text-center">{{member.role}}</p>
+                </a>
             </div>
         </div>
     </div>

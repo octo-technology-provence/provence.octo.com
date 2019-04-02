@@ -1,0 +1,14 @@
+---
+layout: default
+title: Bios
+---
+
+<div class="bios row row--vertical">
+        <h2 class="title--section">Les Bios.</h2>
+        {% for member in site.data.people %}
+        {% include bio.html member=member %}
+        {% endfor %}
+    </div>
+</div>
+
+

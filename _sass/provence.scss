@@ -37,7 +37,6 @@ header {
     margin-bottom: $desktop-padding;
 }
 
-
 // Homepage
 
 .why {
@@ -70,7 +69,6 @@ header {
 #about-camp {
     margin-top: $padding;
 }
-
 
 // Event
 
@@ -122,7 +120,6 @@ header {
         }
     }
 }
-
 
 // Join us page
 
@@ -240,7 +237,7 @@ header {
     background-size: 100% 100%;
     background-position: 50% 50%;
     background-repeat: no-repeat;
-   // background: url('https://github.com/jakehong0521/jakehong0521.github.io/blob/master/css/projects/jh.png?raw=true');
+    // background: url('https://github.com/jakehong0521/jakehong0521.github.io/blob/master/css/projects/jh.png?raw=true');
 }
 
 .flipcard:hover .flipcard_front {
@@ -254,7 +251,7 @@ header {
     -ms-transform: translate(-50%, -50%) rotateY(180deg);
     transform: translate(-50%, -50%) rotateY(180deg);
     color: $text-color;
-//    background: linear-gradient(120deg, rgb(100, 100, 110), rgb(20, 30, 30) 20%, rgb(20, 30, 30) 80%, rgb(100, 100, 110));
+    //    background: linear-gradient(120deg, rgb(100, 100, 110), rgb(20, 30, 30) 20%, rgb(20, 30, 30) 80%, rgb(100, 100, 110));
 }
 
 .flipcard:hover .flipcard_back {
@@ -305,4 +302,23 @@ header {
 .flipcard_description img {
     height: 2rem;
     margin: 2% 1%;
+}
+
+.bios {
+    margin-top: 80px;
+}
+
+@media screen and (min-width: $desktop-size) {
+    .bio {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        img {
+            height: 300px;
+            width: 300px;
+            padding-top: 30px;
+            padding-right: 20px;
+
+        }
+    }
 }

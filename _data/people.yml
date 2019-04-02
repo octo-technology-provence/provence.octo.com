@@ -1,28 +1,112 @@
 - poly: GAMA
   name: Gael Mareau
+  role: Facilitateur / Coach Agile
   bio: |
-      Je m’appelle Gael, je suis violent
+      Avant Gaël développait des logiciels. Maintenant il aide des équipes et des personnes à se développer avec agilité.
+      Il est chaque jour un peu plus convaincu que les équipes sont les mieux placées pour découvrir et résoudre leurs propres problématiques. Sa préoccupation principale est de fournir un espace sûr pour qu’elles puissent les découvrir en expérimentant et en apprenant.
+
+      Il met à profit ses 10 années d’expérience dans l’IT, son background technique et ses compétences relationnelles pour :
+      Aider les équipes à faire évoluer leur organisation dans une logique d’amélioration continue
+      Sensibiliser et former aux principes et pratiques Agile / Lean pour soutenir un changement durable
+      Favoriser un climat de confiance en renforçant les liens entre les équipiers
+
+      Gaël aime partager sa passion pour l’agilité en interne comme en externe. Avec ses acolytes de l’Esprit Agile il anime la communauté locale avec des meetups réguliers et organise l’Agile Tour Aix-Marseille une fois par an.
+
   image_url: https://s3.amazonaws.com/askbob/users/photos/1317/big/Gae%CC%88l_Mareau.jpg?1526980341
 
 - poly: TLI
   name: Thomas Lissajoux
-  bio: |
-      Wesh je suis trop un ouf
+  role: Catalysateur
+  bio: >
+      Thomas est passionné par tout les sujets permettant aux personnes et aux organisations de construire du sens commun, d'évoluer et de faire grandir leur culture > leurs équipes > leurs produits.
+
+
+      **"Making products is about making people".**
+
+
+      Expert Lean-Agile et catalyseur de changement,  il intervient sur les terrains de l'entreprise pour des demandes visant à aider à  :
+
+      * Développer la collaboration, la créativité et l’adaptabilité pour lancer des produits qui font une différence ;
+
+      * Clarifier la vision pour se focaliser dans un environnement rapide et changeant ;
+
+      * Faciliter la co-construction de stratégies de produit, d’entreprise, de changement ;
+
+      * Améliorer constamment les modes de fonctionnement, les processus et les produits par des expérimentations légères, en visant la fierté des équipes et la satisfaction des utilisateurs ;
+
+      * Résoudre des problèmes complexes (conflit de personnes, qualité relationnelle, transformation et réorganisation).
+
+
+      Depuis plus de 15 ans, il a construit une expérience large de consultant/agile coach/manager, intervenant sur des projets IT complexes, livrant des MVP en 3 mois, conciliant empathie pour les personnes et solutions techniques.
+
+
+      Il accompagne aussi bien les personnes, les équipes que l'entreprise dans son ensemble au travers de ses instances dirigeantes.  Il intervient par du coaching, de la facilitation et du conseil, aussi bien avec des développeurs sur des questions opérationnelles, qu'avec des interlocuteurs métier sur la gestion d'un portfolio produit, ou avec des top managers sur des questions stratégiques.
+
   image_url: https://s3.amazonaws.com/askbob/users/photos/1064/big/portrait-200.jpg?1526458851
 
 - poly: MAK
   name: Michael Akbaraly
-  bio:
+  role: Tech Dev/Lead
+  bio: |
+      Issu du Master Informatique Bases de données Avancées de l’Université Aix-Marseille, Michael a aujourd’hui 8 années d’expérience et intervient depuis 5 ans au sein d’OCTO Technology en tant que tant Tech Lead  et expert frontend sur des projets de delivery.
+
+      Il a eu l’occasion de participer à des projets de taille et type diversifiés: sites publics, plate-forme d’e-learning, application web mobile, portail intranet, dans des domaines variés: recherche scientifique, logistique, médias, assurance.
+
+      Ces différentes expériences l’ont convaincu de l’adage **“il n’y a pas de bon projet sans bonne équipe”**, aussi il porte une attention particulière à la dynamique des équipes dans lesquelles il participe.
+
+      Passionné et polyvalent, Michael a longtemps été membre de la tribu WebFront et développe aujourd’hui de nouvelles compétences, en s’intéressant aux problématiques autour des nouvelles interactions (chatbots, VR/AR)  et du delivery.
+
   image_url: https://s3.amazonaws.com/askbob/users/photos/275/big/MAK.jpg?1476373609
 
 - poly: JDB
-  name: Jean Damien Blanc
-  bio: |
-      J'aime les olives
+  name: Jean-Damien Blanc
+  role: Manager Business
+  bio: >
+      Jean-Damien a plus de 10 ans d’expérience professionnelle dans le monde du conseil et du service. Il a rejoint OCTO Technology il y a 5 ans en tant que Manager dans les secteurs de l’hospitality et du web.
+
+      A ce titre, il accompagne les acteurs majeurs de ces secteurs dans leur transformation numérique en agissant sur deux axes distincts :
+
+      * La mise en œuvre et le suivi de missions de conseil et de delivery Agile
+
+      * Le développement et l’enrichissement de la relation business sur ces deux secteurs
+
+
+      Jean-Damien travaille également sur la conception et le pilotage d’offres de services OCTO autour de la mise en place de démarches d’innovation via l’intrapreneurship mais aussi sur une offre packagée à destination de venture-capitalists et d’investisseurs pour la fiabilisation de leurs investissements au sein de startups et entreprises tech à travers la réalisation de due diligences techniques.
+
+      Ses domaines d’intervention et de prédilection :
+
+      * Direction de mission
+
+      * Réalisation de due diligences
+
+      * Delivery & transformation Agile
+
+      * Conception, pilotage d’offres de services
+
   image_url: https://s3.amazonaws.com/askbob/users/photos/264/big/170.jpg?1408959180
 
 - poly: NCA
   name: Nicolas Cappello
-  bio: |
-      #Bienveillance
+  role: Manager Business
+  bio: >
+      Manager dans les secteurs de la Défense, de l'Aéronautique et du Transport, Nicolas a rejoint OCTO en 2013.
+
+
+      Il possède plus de 8 années d'expérience en management et conseil en méthodologie et transformation digitale.
+
+
+      Nicolas est passionné par l’analyse des problématiques culturelles, des comportements Humains et des impacts liés aux révolutions et disruptions numériques.
+
+
+      Grâce à une communication simple et efficace (communication non violente, communication interactive…), il fédère et embarque ses clients dans de nouveaux modes de travail centrés sur la collaboration et sur des approches pragmatiques orientées solutions (Solutions Focus Coaching).
+
+
+      Il est également un fervent défenseur des méthodes UX centrées sur l’utilisateur (Service Design, Customer Journey, observations naïves, Personas, « vis ma vie », etc.) pour créer et/ou améliorer les services/produits pour les rendre plus utiles, utilisables, intuitifs, efficaces et désirables du point de vue du client.
+
+
+      Nicolas est également formé à la facilitation et les nouvelles approches participatives (« Technology of Participation (ToP-ICA) »). En tant que coach, il aide ses clients à mener à bien les changements dans leurs organisations et/ou leurs équipes. Son travail est fait de simplicité, de pragmatisme, d’écoute et de passion pour le changement, la remise en question et l’amélioration continue.
+
+
+      Il apporte également un regard pertinent sur l’utilisation des nouvelles méthodologies et technologies. Par exemple, il accompagné Thales dans le cadrage (processus, méthodologie, gouvernance, etc.) et le lancement de sa Digital Factory, la SNCF, dans le cadrage de nouveaux produits numériques innovants…
+
   image_url: https://s3.amazonaws.com/askbob/users/photos/296/big/CINE0758.jpg?1454080867
