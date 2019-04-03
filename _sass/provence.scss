@@ -308,8 +308,19 @@ header {
     margin-top: 80px;
 }
 
+.bio{
+    .publications {
+        h5 {
+            margin: 0
+        }
+        padding: 20px;
+        border: solid 1px $brand-light-blue
+    }
+}
+
 @media screen and (min-width: $desktop-size) {
     .bio {
+        padding: 10px;
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
@@ -318,7 +329,6 @@ header {
             width: 300px;
             padding-top: 30px;
             padding-right: 20px;
-
         }
     }
 }
