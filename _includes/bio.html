@@ -1,13 +1,25 @@
-<div class="row bio">
+<div class="row bio" id="{{member.name | slugify}}">
     <div>
         <img src="{{member.image_url}}">
     </div>
     <div>
-        <h4 id="{{member.name | slugify}}">{{member.name}}</h4>
-        <h5 id="{{member.name | slugify}}">{{member.role}}</h5>
+        <h4>{{member.name}}</h4>
+        <h5>{{member.role}}</h5>
         <p>
             {{member.bio | markdownify }}
         </p>
+        {% if member.publications %}
+        <div class="row--alignCenter publications">
+            <h5>Publications</h5>
+            <ul>
+
+                {% for publication in member.publications %}
+                <li><a href="{{publication.url}}">{{publication.title}}</a></li>
+                {% endfor %}
+            </ul>
+        </div>
+        {% endif %}
+
     </div>
 </div>
 

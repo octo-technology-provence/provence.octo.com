@@ -33,6 +33,8 @@
       Il accompagne aussi bien les personnes, les équipes que l'entreprise dans son ensemble au travers de ses instances dirigeantes.  Il intervient par du coaching, de la facilitation et du conseil, aussi bien avec des développeurs sur des questions opérationnelles, qu'avec des interlocuteurs métier sur la gestion d'un portfolio produit, ou avec des top managers sur des questions stratégiques.
 
   image_url: https://s3.amazonaws.com/askbob/users/photos/1064/big/portrait-200.jpg?1526458851
+  publications:
+  - {title:  'Pourquoi des coachs Agile', url: 'https://www.linkedin.com/pulse/pourquoi-des-coachs-agile-thomas-lissajoux/'}
 
 - poly: Michael
   name: Michael Akbaraly
@@ -47,6 +49,10 @@
       Passionné et polyvalent, Michael a longtemps été membre de la tribu WebFront et développe aujourd’hui de nouvelles compétences, en s’intéressant aux problématiques autour des nouvelles interactions (chatbots, VR/AR)  et du delivery.
 
   image_url: https://s3.amazonaws.com/askbob/users/photos/275/big/MAK.jpg?1476373609
+  publications:
+  - {title:  'RefCard sur tests Frontend', url: 'https://blog.octo.com/sortie-de-la-carte-de-reference-octo-tout-sur-les-tests-dapplications-web-front-end/'}
+  - {title: 'Paris Web : Désendettement de code Javascript, le guide anti-crise', url: 'https://www.paris-web.fr/2015/ateliers/desendettement-de-code-javascript-le-guide-anti-crise.php'}
+  - {title:  'Petit-déjeuner Octo : Psychanalyse du chatbot', url: 'https://blog.octo.com/compte-rendu-petit-dejeuner-psychanalyse-du-chatbot/'}
 
 - poly: Jean-Damien
   name: Jean-Damien Blanc
@@ -100,3 +106,6 @@
       Il apporte également un regard pertinent sur l’utilisation des nouvelles méthodologies et technologies. Par exemple, il accompagné Thales dans le cadrage (processus, méthodologie, gouvernance, etc.) et le lancement de sa Digital Factory, la SNCF, dans le cadrage de nouveaux produits numériques innovants…
 
   image_url: https://s3.amazonaws.com/askbob/users/photos/296/big/CINE0758.jpg?1454080867
+  publications:
+  - {title: 'Compte-rendu du séminaire sur les Liberating Structures (novembre 2018)', url: 'https://blog.octo.com/compte-rendu-du-seminaire-sur-les-liberating-structures-novembre-2018/'}
+  - {title:  'L’approche Solutions Focus: une approche puissante, simple mais subtile du changement positif des personnes, des équipes et des organisations.', url: 'https://blog.octo.com/et-si-le-probleme-etait-la-solution-version-longue-lapproche-solutions-focus-une-approche-puissante-simple-mais-subtile-du-changement-positif-des-personnes-des-equipes-et-des-organisa/'}
