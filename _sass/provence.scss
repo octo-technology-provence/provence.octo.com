@@ -308,7 +308,7 @@ header {
     margin-top: 80px;
 }
 
-.bio{
+.bio {
     .publications {
         h5 {
             margin: 0
@@ -330,5 +330,20 @@ header {
             padding-top: 30px;
             padding-right: 20px;
         }
+    }
+}
+
+.opportunity-contact-block {
+    border: $brand-color;
+    input, textarea {
+        border: solid 1px $brand-color;
+        display: block;
+        margin-bottom: 5px;
+        width: 100%;
+        border-radius: 15px;
+        padding: 10px;
+    }
+    textarea {
+        height: 300px;
     }
 }
