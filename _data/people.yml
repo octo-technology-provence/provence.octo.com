@@ -1,4 +1,4 @@
-- poly: GAMA
+- poly: Gael
   name: Gael Mareau
   role: Facilitateur / Coach Agile
   bio: |
@@ -14,37 +14,27 @@
 
   image_url: https://s3.amazonaws.com/askbob/users/photos/1317/big/Gae%CC%88l_Mareau.jpg?1526980341
 
-- poly: TLI
+- poly: Thomas
   name: Thomas Lissajoux
-  role: Catalysateur
+  role: Catalyste
   bio: >
       Thomas est passionné par tout les sujets permettant aux personnes et aux organisations de construire du sens commun, d'évoluer et de faire grandir leur culture > leurs équipes > leurs produits.
-
-
       **"Making products is about making people".**
 
-
       Expert Lean-Agile et catalyseur de changement,  il intervient sur les terrains de l'entreprise pour des demandes visant à aider à  :
-
       * Développer la collaboration, la créativité et l’adaptabilité pour lancer des produits qui font une différence ;
-
       * Clarifier la vision pour se focaliser dans un environnement rapide et changeant ;
-
       * Faciliter la co-construction de stratégies de produit, d’entreprise, de changement ;
-
       * Améliorer constamment les modes de fonctionnement, les processus et les produits par des expérimentations légères, en visant la fierté des équipes et la satisfaction des utilisateurs ;
-
       * Résoudre des problèmes complexes (conflit de personnes, qualité relationnelle, transformation et réorganisation).
 
-
       Depuis plus de 15 ans, il a construit une expérience large de consultant/agile coach/manager, intervenant sur des projets IT complexes, livrant des MVP en 3 mois, conciliant empathie pour les personnes et solutions techniques.
-
 
       Il accompagne aussi bien les personnes, les équipes que l'entreprise dans son ensemble au travers de ses instances dirigeantes.  Il intervient par du coaching, de la facilitation et du conseil, aussi bien avec des développeurs sur des questions opérationnelles, qu'avec des interlocuteurs métier sur la gestion d'un portfolio produit, ou avec des top managers sur des questions stratégiques.
 
   image_url: https://s3.amazonaws.com/askbob/users/photos/1064/big/portrait-200.jpg?1526458851
 
-- poly: MAK
+- poly: Michael
   name: Michael Akbaraly
   role: Tech Dev/Lead
   bio: |
@@ -58,7 +48,7 @@
 
   image_url: https://s3.amazonaws.com/askbob/users/photos/275/big/MAK.jpg?1476373609
 
-- poly: JDB
+- poly: Jean-Damien
   name: Jean-Damien Blanc
   role: Manager Business
   bio: >
@@ -85,7 +75,7 @@
 
   image_url: https://s3.amazonaws.com/askbob/users/photos/264/big/170.jpg?1408959180
 
-- poly: NCA
+- poly: Nicolas
   name: Nicolas Cappello
   role: Manager Business
   bio: >
