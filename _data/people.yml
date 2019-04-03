@@ -13,6 +13,8 @@
       Gaël aime partager sa passion pour l’agilité en interne comme en externe. Avec ses acolytes de l’Esprit Agile il anime la communauté locale avec des meetups réguliers et organise l’Agile Tour Aix-Marseille une fois par an.
 
   image_url: https://s3.amazonaws.com/askbob/users/photos/1317/big/Gae%CC%88l_Mareau.jpg?1526980341
+  publications:
+    - {title: 'Vous prendriez bien un peu de Clean Language avec votre rétrospective ?', url:  'https://www.linkedin.com/pulse/vous-prendriez-bien-un-peu-de-clean-language-avec-votre-ga%C3%ABl-mareau/'}
 
 - poly: Thomas
   name: Thomas Lissajoux
