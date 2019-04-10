@@ -1,5 +1,5 @@
-- poly: Gael
-  name: Gael Mareau
+- poly: GAMA
+  name: Gaël Mareau
   role: Facilitateur / Coach Agile
   bio: |
       Avant Gaël développait des logiciels. Maintenant il aide des équipes et des personnes à se développer avec agilité.
@@ -16,7 +16,7 @@
   publications:
     - {title: 'Vous prendriez bien un peu de Clean Language avec votre rétrospective ?', url:  'https://www.linkedin.com/pulse/vous-prendriez-bien-un-peu-de-clean-language-avec-votre-ga%C3%ABl-mareau/'}
 
-- poly: Thomas
+- poly: TLI
   name: Thomas Lissajoux
   role: Catalyste
   bio: >
@@ -38,7 +38,7 @@
   publications:
   - {title:  'Pourquoi des coachs Agile', url: 'https://www.linkedin.com/pulse/pourquoi-des-coachs-agile-thomas-lissajoux/'}
 
-- poly: Michael
+- poly: MAK
   name: Michael Akbaraly
   role: Tech Dev/Lead
   bio: |
@@ -56,7 +56,7 @@
   - {title: 'Paris Web : Désendettement de code Javascript, le guide anti-crise', url: 'https://www.paris-web.fr/2015/ateliers/desendettement-de-code-javascript-le-guide-anti-crise.php'}
   - {title:  'Petit-déjeuner Octo : Psychanalyse du chatbot', url: 'https://blog.octo.com/compte-rendu-petit-dejeuner-psychanalyse-du-chatbot/'}
 
-- poly: Jean-Damien
+- poly: JDB
   name: Jean-Damien Blanc
   role: Manager Business
   bio: >
@@ -83,7 +83,7 @@
 
   image_url: https://s3.amazonaws.com/askbob/users/photos/264/big/170.jpg?1408959180
 
-- poly: Nicolas
+- poly: NCA
   name: Nicolas Cappello
   role: Manager Business
   bio: >
