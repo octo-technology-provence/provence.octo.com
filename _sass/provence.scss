@@ -13,7 +13,11 @@
     padding: $padding;
 }
 
-.brand-image, .header-image {
+.brand-image {
+    width: 30%;
+}
+
+ .header-image {
     width: 100%;
 }
 
@@ -191,7 +195,7 @@ header {
     }
 
     .brand-image {
-        width: 350px;
+        width: 300px;
     }
 
     .job {

@@ -1,6 +1,6 @@
 - poly: GAMA
   name: Gaël Mareau
-  role: Facilitateur / Coach Agile
+  role: Facilitateur - Coach Agile
   bio: |
       Avant Gaël développait des logiciels. Maintenant il aide des équipes et des personnes à se développer avec agilité.
       Il est chaque jour un peu plus convaincu que les équipes sont les mieux placées pour découvrir et résoudre leurs propres problématiques. Sa préoccupation principale est de fournir un espace sûr pour qu’elles puissent les découvrir en expérimentant et en apprenant.
@@ -18,7 +18,7 @@
 
 - poly: TLI
   name: Thomas Lissajoux
-  role: Catalyste - Coach Agile
+  role: Catalyste - Coach Agile - Expert Lean
   bio: >
       Thomas est passionné par tout les sujets permettant aux personnes et aux organisations de construire du sens commun, d'évoluer et de faire grandir leur culture > leurs équipes > leurs produits.
       **"Making products is about making people".**
@@ -40,7 +40,7 @@
 
 - poly: MAK
   name: Michael Akbaraly
-  role: Tech Dev/Lead
+  role: Tech Lead - Expert Craft
   bio: |
       Issu du Master Informatique Bases de données Avancées de l’Université Aix-Marseille, Michael a aujourd’hui 8 années d’expérience et intervient depuis 5 ans au sein d’OCTO Technology en tant que tant Tech Lead  et expert frontend sur des projets de delivery.
 
@@ -58,7 +58,7 @@
 
 - poly: JDB
   name: Jean-Damien Blanc
-  role: Manager Business
+  role: Responsable Business et développement des partenariats
   bio: >
       Jean-Damien a plus de 10 ans d’expérience professionnelle dans le monde du conseil et du service. Il a rejoint OCTO Technology il y a 5 ans en tant que Manager dans les secteurs de l’hospitality et du web.
 
@@ -85,7 +85,7 @@
 
 - poly: NCA
   name: Nicolas Cappello
-  role: Manager Business
+  role: Leader du campement Provence - Coach - Facilitateur
   bio: >
       Manager dans les secteurs de la Défense, de l'Aéronautique et du Transport, Nicolas a rejoint OCTO en 2013.
 
