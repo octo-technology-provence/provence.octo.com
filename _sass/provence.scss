@@ -17,7 +17,7 @@
     width: 30%;
 }
 
- .header-image {
+.header-image {
     width: 100%;
 }
 
@@ -349,5 +349,12 @@ header {
     }
     textarea {
         height: 300px;
+    }
+}
+
+.join-us {
+    > .title--section {
+        position: relative;
+        top: 0;
     }
 }
