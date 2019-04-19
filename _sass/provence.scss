@@ -38,7 +38,7 @@ footer {
 
 header {
     background-color: #87ceeb;
-    margin-bottom: $desktop-padding;
+    //margin-bottom: $desktop-padding;
 }
 
 // Homepage
@@ -463,13 +463,6 @@ header {
     }
 }
 
-.join-us {
-    > .title--section {
-        //position: relative;
-        top: 0;
-    }
-}
-
 h2.title--section {
     font-size: 5rem;
 }
@@ -510,6 +503,21 @@ h3.title--section {
     }
 }
 
-#col-left {
-    margin-top: 0;
+
+
+.box {
+    background-color: $gray-color;
+    position: relative;
+
+    > .title--section {
+        width: 100%;
+        display: block;
+    }
+}
+
+@media screen and (min-width: $desktop-size) {
+    h3.join-us {
+        font-size: 2.2rem;
+        margin-top: 0;
+    }
 }
