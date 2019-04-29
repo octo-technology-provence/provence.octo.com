@@ -3,17 +3,14 @@ layout: default
 title: BBL - OCTO Provence
 ---
 
-<div class="row padded">
+<div class="row">
     <div class="col">
-        <div class="row row--vertical">
-            <div class="col col--important">
-                <h3 class="title--section">Nos BBL.</h3>
-                <div class="box content">
-                    {% for bbl in site.data.bbl %}
-                    {% include bbl.html bbl=bbl %}
-                    {% endfor %}
-                </div>
-            </div>
+        <div class="box content">
+            <h3 class="title--section">Nos BBL.</h3>
+
+            {% for bbl in site.data.bbl %}
+            {% include bbl.html bbl=bbl %}
+            {% endfor %}
         </div>
     </div>
 </div>

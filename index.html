@@ -6,7 +6,7 @@ title: OCTO Provence
 <div class="row padded">
     <div class="col col--important">
         <div class="row row--vertical">
-            <div class="col">
+            <div id="col-left" class="col">
                 <div class="box box--lined">
                     <div class="content">
                         <div>
@@ -14,7 +14,7 @@ title: OCTO Provence
                             <p>Nous sommes face à un monde imprévisible, ambigu, volatile et incertain, où la hiérarchie
                                 et l’organisation
                                 vue comme une machine trouvent leurs limites.
-                                Le digital s’est immiscé depuis 20 ans au coeur des organisations, des process et des
+                                Le digital s’est immiscé depuis 20ans au coeur des organisations, des process et des
                                 projets, porteur à la
                                 fois d’opportunités et de rigidités nouvelles.</p>
                             <h3> Nous avons besoin de nouveaux réflexes</h3>
@@ -33,15 +33,14 @@ title: OCTO Provence
                                 n’est jamais trop tard
                                 pour faire évoluer votre “stack” technique, humaine et managériale.</p>
                             <h3>Nous vous aidons</h3>
-                            <div>Nous vous accompagnons dans la transformation culturelle, méthodologique et
-                                technologique de votre organisation :
+                            <div>Nous travaillons avec vous sur les interactions au sein de votre organisation pour :
                                 <ul>
-                                    <li>Aligner vos équipes sur une même compréhension de votre réalité</li>
-                                    <li>Créer un engagement et un sentiment d’appartenance sur un objectif commun</li>
-                                    <li>Vous faire monter en puissance sur les nouvelles pratiques et technologies pour
+                                    <li>aligner vos équipes sur une même compréhension de votre réalité.</li>
+                                    <li>créer un engagement et un sentiment d’appartenance sur un objectif commun.</li>
+                                    <li>vous faire monter en puissance sur les nouvelles pratiques et technologies pour
                                         vous
                                         rendre autonome
-                                        le plus rapidement possible
+                                        le plus rapidement possible.
                                     </li>
                                 </ul>
                             </div>
@@ -49,34 +48,27 @@ title: OCTO Provence
                             <div>
                                 Nous travaillons avec vous sur les interactions au sein de votre organisation pour :
                                 <ul>
-                                    <li>
-                                        Mentorer vos équipes techniques sur du TDD et du Craftsmanship, 
-                                        et le développement d'APIs à l'état de l'art pour ouvrir et faire évoluer votre SI
+                                    <li>Mentorer vos équipes techniques sur du TDD et Craftmanship ou ouvrir votre SI au
+                                        moyen d’APIs pour
+                                        faire évoluer le SI,
                                     </li>
-                                    <li>
-                                        Définir et mettre en œuvre les pratiques DevOps qui visent à réduire
-                                        le Time To Market et à améliorer la qualité des produits logiciels, 
-                                        en réinventant la coopération entre DEV et OPS
+                                    <li>Animer des Hackatons ou Design Sprints pour identifier et explorer rapidement de
+                                        nouvelles
+                                        opportunités,
                                     </li>
-                                    <li>
-                                        Animer des Hackatons ou Design Sprints pour identifier et explorer rapidement de
-                                        nouvelles opportunités
-                                    </li>
-                                    <li>
-                                        Mettre en place une dynamique d’amélioration continue transverse ou des
-                                        communautés de pratiques pour apprendre et partager
+                                    <li>Mettre en place une dynamique d’amélioration continue transverse ou des
+                                        communautés
+                                        de pratiques
+                                        pour apprendre et partager
                                     </li>
                                     <li>
                                         Accompagner des équipes produit en approche agile pour livrer rapidement et
-                                        satisfaire les utilisateurs
-                                    </li>
-                                    <li>
-                                        Concevoir et mettre en œuvre l'expérience utilisateur (UX) de vos services et 
-                                        Produits pour maximiser leur adoption par vos clients (internes et externes)
+                                        satisfaire les
+                                        utilisateurs,
                                     </li>
                                     <li>
                                         Accompagner une transformation culturelle pour expérimenter de nouvelles façons
-                                        de faire
+                                        de
                                     </li>
                                 </ul>
                             </div>
@@ -109,8 +101,8 @@ title: OCTO Provence
     <div class="col">
         <div class="row row--vertical">
             <div class="col">
-                <h3 class="title--section join-us">OCTO recrute en Provence.</h3>
-                <div>
+                <div class="box content join-us">
+                    <h3 class="title--section">OCTO recrute en Provence.</h3>
                     <p>Plus qu'une <b class="emphase">Great Place To Work</b>, OCTO se vit en interne comme une
                         véritable <b class="emphase">Best Place To Grow</b>.</p>
 
@@ -146,15 +138,16 @@ title: OCTO Provence
             </div>
         </div>
     </div>
-
-    <div class="row row--vertical">
-        <div class="col">
-            <div class="box content">
-                <h3 class="title--section">L'équipe.</h3>
-                <div class="row">
-                        {% for member in site.data.people %}
-                        {% include member.html member=member %}
-                        {% endfor %}
+</div>
+<div class="row row--vertical">
+    <div class="col">
+        <div class="box content">
+            <h3 class="title--section">L'équipe.</h3>
+            <div class="row padded">
+                <div class="flipcards">
+                    {% for member in site.data.people %}
+                    {% include member.html member=member %}
+                    {% endfor %}
                 </div>
             </div>
         </div>

@@ -1,20 +1,20 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+<html lang="{{ page.lang | default: site.lang | default: 'fr' }}">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, minimum-scale=1, user-scalable=no, minimal-ui">
 
-    <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+    <title>{% if page.title %}{{ page.title | escape }} | {{ site.title | escape }}{% else %}{{ site.title | escape }}{%
+        endif %}</title>
     <meta name="description"
-          content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+          content="{{ page.excerpt | default: content | default: site.description | strip_html | normalize_whitespace | truncate: 240 | escape }}">
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-capable" content="yes">
 
-    <link href="{{ 'assets/images/favicon.ico' }}" rel="shortcut icon">
-    <link rel="stylesheet" href="{{ 'assets/normalize.css' }}">
-    <link rel="stylesheet" href="{{ 'assets/main.css' }}">
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
+    <link href="{{ '/assets/images/favicon.ico' | absolute_url }}" rel="shortcut icon">
+    <link rel="stylesheet" href="{{ '/assets/normalize.css' | absolute_url }}">
+    <link rel="stylesheet" href="{{ '/assets/main.css' | absolute_url }}">
 
     <link rel="stylesheet" type="text/css"
           href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css"/>
@@ -59,10 +59,10 @@
     <div class="wrapper col">
         <a href="/"><img src="assets/images/brand.png" class="brand-image" style="width:40%"></a>
     </div>
+    {% if page.name == 'index.html' %}
     <div class="text-center">
         <img src="/assets/images/motto.png" class="header-image"><br>
     </div>
-    {% if page.name == 'index.html' %}
     <div class="why">
         <div class="wrapper">
             <p class="text-center">Consommez <span class="emphase">local</span> et <span class="emphase">durable</span> :<br> OCTO Provence, le cabinet de conseil tech, méthodo et UX en circuit-court !</p>
@@ -78,13 +78,20 @@
 <footer>
     <div class="wrapper content">
         <div class="row row--alignCenter">
-            <div class="col">
-                <h2>{{site.title}}</h2>
-                <a href="mailto:{{site.email}}" class="btn">Contactez-nous</a>
+            <div class="col" itemscope itemtype="http://schema.org/LocalBusiness">
+                <h2 itemprop="name">{{site.title}}</h2>
+                <meta itemprop="image" content="{{ '/brand.png' | absolute_url }}" />
+
+                <p itemscope itemprop="address" itemtype="http://schema.org/PostalAddress">
+                    <span itemprop="streetAddress">113 rue de la République</span><br>
+                    <span itemprop="postalCode">13002</span> <span itemprop="addressLocality">Marseille</span>
+                </p>
+
+                <a href="mailto:{{site.email}}" class="btn" itemprop="email" content="{{site.email}}">Contactez-nous</a>
             </div>
             <div class="col footer-social">
-                <a href="{{ site.twitter }}"><img
-                    src="assets/images/social/twitter.svg"></a>
+                <a href="https://twitter.com/{{ site.twitter.username }}"><img
+                    src="{{ '/assets/images/social/twitter.svg' | absolute_url }}"></a>
             </div>
         </div>
         <div class="row row--alignCenter">

@@ -120,7 +120,7 @@ img {
 }
 
 .emphase {
-    color: $brand-light-color;
+    color: $yellow-color;
     font-style: italic;
 }
 
@@ -197,12 +197,7 @@ img {
     padding: $padding;
 }
 
-@media screen and (min-width: $desktop-size) {
-    h2.title--section {
-        font-size: 5rem;
-        margin-top: -4.1rem;
-    }
-
+@media screen and (min-width: $tablet-size) {
     h3.title--section {
         font-size: 2.2rem;
         margin-top: -3.25rem;

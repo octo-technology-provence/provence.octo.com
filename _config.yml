@@ -4,8 +4,11 @@ description: |
     OCTO Provence website
 baseurl: ''
 url: 'https://provence.octo.com'
-twitter: 'https://twitter.com/octoprovence'
 google_analytics:
+twitter:
+    username: octoprovence
+    card: summary
+
 
 markdown: kramdown
 theme: minima
