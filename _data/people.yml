@@ -31,7 +31,7 @@
 
       Gaël aime partager sa passion pour l’agilité en interne comme en externe. Avec ses acolytes de l’Esprit Agile il anime la communauté locale avec des meetups réguliers et organise l’Agile Tour Aix-Marseille une fois par an.
 
-  image_url: https://s3.amazonaws.com/askbob/users/photos/1317/big/Gae%CC%88l_Mareau.jpg?1526980341
+  image_url: assets/images/people/GAMA.jpg
   publications:
     - {title: 'Vous prendriez bien un peu de Clean Language avec votre rétrospective ?', url:  'https://www.linkedin.com/pulse/vous-prendriez-bien-un-peu-de-clean-language-avec-votre-ga%C3%ABl-mareau/'}
 
@@ -60,7 +60,7 @@
 
       Il accompagne aussi bien les personnes, les équipes que l'entreprise dans son ensemble au travers de ses instances dirigeantes.  Il intervient par du coaching, de la facilitation et du conseil, aussi bien avec des développeurs sur des questions opérationnelles, qu'avec des interlocuteurs métier sur la gestion d'un portfolio produit, ou avec des top managers sur des questions stratégiques.
 
-  image_url: https://s3.amazonaws.com/askbob/users/photos/1064/big/portrait-200.jpg?1526458851
+  image_url: assets/images/people/TLI.jpg
   publications:
   - {title:  'Pourquoi des coachs Agile', url: 'https://www.linkedin.com/pulse/pourquoi-des-coachs-agile-thomas-lissajoux/'}
 
@@ -109,7 +109,7 @@
 
       * Conception, pilotage d’offres de services
 
-  image_url: assets/images/people/JDB.jpg
+  image_url: https://s3.amazonaws.com/askbob/users/photos/264/big/JSB_1_1.jpg?155617708
 
 - poly: NCA
   name: Nicolas Cappello
