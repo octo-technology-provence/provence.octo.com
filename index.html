@@ -140,18 +140,19 @@ title: OCTO Provence
             </div>
         </div>
     </div>
-</div>
-<div class="row row--vertical">
-    <div class="col">
-        <div class="box content">
-            <h3 class="title--section">L'équipe.</h3>
-            <div class="row padded">
-                <div class="flipcards">
-                    {% for member in site.data.people %}
-                    {% include member.html member=member %}
-                    {% endfor %}
+
+    <div class="row row--vertical">
+        <div class="col">
+            <div class="box content">
+                <h3 class="title--section">L'équipe.</h3>
+                <div class="row padded">
+                        {% for member in site.data.people %}
+                        {% include member.html member=member %}
+                        {% endfor %}
+
                 </div>
             </div>
         </div>
     </div>
 </div>
+
