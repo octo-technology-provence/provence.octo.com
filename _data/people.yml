@@ -12,7 +12,7 @@
 
       Dernièrement Fabien est intervenu au sein d’un client pour accompagner leur équipe à la mise en place de process devops.
 
-  image_url: assets/images/people/TRAF.jpeg
+  image_url: https://s3.amazonaws.com/askbob/users/photos/1650/big/TRAF.jpg?1558079725
   publications:
     - {title: 'Présentation d''une usine logielle', url:  'https://webcast.in2p3.fr/video/usine_logicielle_presentation_ou_poc'}
 
