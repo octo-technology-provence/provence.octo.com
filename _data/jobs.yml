@@ -1,17 +1,23 @@
-- title: Architecte (H/F)
+- title: Architecte tout terrain (H/F)
   description: |
-      Du sol au plafond, aidons nos clients à monter des SI de qualité !
-  url: https://rejoins.octo.com/job-offers/34
+      Plus terrain que tour d'ivoire ?
+  url: https://rejoins.octo.com/job-offers/99
   image: archi
 
-- title: Tech Lead (H/F)
+- title: Artisan Codeur Craft (H/F)
   description: |
-      Expert, Facilitateur, Coach, Formateur : ça vous parle ?
-  url: https://rejoins.octo.com/job-offers/36
+      TDD, BDD, DDD, CQFD ?
+  url: https://rejoins.octo.com/job-offers/152
   image: craft
 
-- title: Direct-eur/rice de mission
+- title: Coach Agile (H/F)
   description: |
-    Votre mission si vous l'acceptez : S'assurer du bon déroulement de la mission.
-  url: https://rejoins.octo.com/job-offers/110
-  image: delivery
+    La collaboration et les relations humaines sont votre jardin ?
+  url: https://rejoins.octo.com/job-offers/100
+  image: agile
+
+  - title: Ingénieur Ops (H/F)
+    description: |
+      A Marseille il y a des dockers et docker.
+    url: https://rejoins.octo.com/job-offers/148
+    image: ops
