@@ -16,8 +16,8 @@
   url: https://rejoins.octo.com/job-offers/100
   image: agile
 
-  - title: Ingénieur Ops (H/F)
-    description: |
-      A Marseille il y a des dockers et docker.
-    url: https://rejoins.octo.com/job-offers/148
-    image: ops
+- title: Ingénieur Ops (H/F)
+  description: |
+    A Marseille il y a des dockers et docker.
+  url: https://rejoins.octo.com/job-offers/148
+  image: ops
