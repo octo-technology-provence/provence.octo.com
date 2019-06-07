@@ -1,13 +1,27 @@
-- title: Pastis.tech #3
+- title: Simplifier vos devs et vos tests avec docker-compose
   description: |
-      Le concept des pastis.tech c'est 4 ligthning talks sur des sujets techniques variés et, évidemment, un apéro pour se rencontrer, discuter et passer un bon moment.
-  date: Mai 21
-  url: https://www.meetup.com/fr-FR/pastistech/events/259769163/
+      Devops Aix Marseille partage des astuces pour simplifier les développements et les tests avec docker-compose.
+  date: Juin 18
+  url: https://www.meetup.com/fr-FR/Devops-Aix-Marseille/events/261670786/
   tag: meetups
 
-- title: PHP5 - Endgame et Maria/Mysql
+- title: 2019-02 - L'injection de dépendance et l'architecture hexagonale
   description: |
-      L'AFUP organise son meetup sur Marseille. Au programme Endgame & Maria/Mysql.
-  date: Mai 28
-  url: https://www.meetup.com/fr-FR/Esprit-Agile-Aix-Marseille/
+      Artisan Développeurs Provence propose deux conférences sur l'injection de dépendance et l'architecture hexagonale.
+  date: Juin 19
+  url: https://www.meetup.com/fr-FR/Artisan-Developpeur-Provence/events/260395349/
+  tag: meetups
+
+- title: Agile After Work 7 - Travail à distance
+  description: |
+      L'Esprit Agile explore la question du travail à distance et de l'agilité à travers une présentation et un débat.
+  date: Juillet 04
+  url: https://www.meetup.com/fr-FR/Esprit-Agile-Aix-Marseille/events/262066847/
+  tag: meetups
+
+- title: Pastis.tech
+  description: |
+        Le concept des pastis.tech c'est 4 ligthning talks sur des sujets techniques variés et, évidemment, un apéro pour se rencontrer, discuter et passer un bon moment.
+  date: Juillet 11
+  url: https://www.meetup.com/fr-FR/pastistech/events/259900128/
   tag: meetups
