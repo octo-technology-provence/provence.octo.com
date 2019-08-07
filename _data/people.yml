@@ -1,3 +1,21 @@
+- poly: TRAF
+  name: Fabien Travaglia
+  firstname: Fabien
+  role: Ingénieur Devops
+  bio: |
+      Issu d’un parcours atypique, c’est la curiosité et son appétence pour l’informatique qui lui ont permis après 10 ans d’expérience d’acquérir des compétences en développement, infrastructure, exploitation et usine logicielle.
+
+      Son spectre assez large de compétence lui a permis de cerner les problématiques devops et de traiter les sujets tels que :
+      * La conception et le développement en mode craftsmanship
+      * Définition d’architectures techniques et logicielles
+      * Etude et mise en place d’outil d’exploitation et d’usine logicielle
+
+      Dernièrement Fabien est intervenu au sein d’un client pour accompagner leur équipe à la mise en place de process devops.
+
+  image_url: https://s3.amazonaws.com/askbob/users/photos/1650/big/TRAF.jpg?1558079725
+  publications:
+    - {title: 'Présentation d''une usine logielle', url:  'https://webcast.in2p3.fr/video/usine_logicielle_presentation_ou_poc'}
+
 - poly: GAMA
   name: Gaël Mareau
   firstname: Gaël
@@ -13,7 +31,7 @@
 
       Gaël aime partager sa passion pour l’agilité en interne comme en externe. Avec ses acolytes de l’Esprit Agile il anime la communauté locale avec des meetups réguliers et organise l’Agile Tour Aix-Marseille une fois par an.
 
-  image_url: https://s3.amazonaws.com/askbob/users/photos/1317/big/Gae%CC%88l_Mareau.jpg?1526980341
+  image_url: assets/images/people/GAMA.jpg
   publications:
     - {title: 'Vous prendriez bien un peu de Clean Language avec votre rétrospective ?', url:  'https://www.linkedin.com/pulse/vous-prendriez-bien-un-peu-de-clean-language-avec-votre-ga%C3%ABl-mareau/'}
 
@@ -23,20 +41,26 @@
   role: Catalyste - Coach Agile - Expert Lean
   bio: >
       Thomas est passionné par tout les sujets permettant aux personnes et aux organisations de construire du sens commun, d'évoluer et de faire grandir leur culture > leurs équipes > leurs produits.
+
       **"Making products is about making people".**
 
       Expert Lean-Agile et catalyseur de changement,  il intervient sur les terrains de l'entreprise pour des demandes visant à aider à  :
+
       * Développer la collaboration, la créativité et l’adaptabilité pour lancer des produits qui font une différence ;
+
       * Clarifier la vision pour se focaliser dans un environnement rapide et changeant ;
+
       * Faciliter la co-construction de stratégies de produit, d’entreprise, de changement ;
+
       * Améliorer constamment les modes de fonctionnement, les processus et les produits par des expérimentations légères, en visant la fierté des équipes et la satisfaction des utilisateurs ;
+
       * Résoudre des problèmes complexes (conflit de personnes, qualité relationnelle, transformation et réorganisation).
 
       Depuis plus de 15 ans, il a construit une expérience large de consultant/agile coach/manager, intervenant sur des projets IT complexes, livrant des MVP en 3 mois, conciliant empathie pour les personnes et solutions techniques.
 
       Il accompagne aussi bien les personnes, les équipes que l'entreprise dans son ensemble au travers de ses instances dirigeantes.  Il intervient par du coaching, de la facilitation et du conseil, aussi bien avec des développeurs sur des questions opérationnelles, qu'avec des interlocuteurs métier sur la gestion d'un portfolio produit, ou avec des top managers sur des questions stratégiques.
 
-  image_url: https://s3.amazonaws.com/askbob/users/photos/1064/big/portrait-200.jpg?1526458851
+  image_url: assets/images/people/TLI.jpg
   publications:
   - {title:  'Pourquoi des coachs Agile', url: 'https://www.linkedin.com/pulse/pourquoi-des-coachs-agile-thomas-lissajoux/'}
 
@@ -85,34 +109,51 @@
 
       * Conception, pilotage d’offres de services
 
-  image_url: assets/images/people/JDB.jpg
+  image_url: https://s3.amazonaws.com/askbob/users/photos/264/big/JSB_1_1.jpg?155617708
 
 - poly: NCA
   name: Nicolas Cappello
   firstname: Nicolas
   role: Leader du campement Provence - Coach - Facilitateur
   bio: >
-      Manager dans les secteurs de la Défense, de l'Aéronautique et du Transport, Nicolas a rejoint OCTO en 2013.
+        Nicolas a rejoint OCTO en 2013 et possède plus de 8 années d'expérience en management,
+        conseil en méthodologie agile et transformation digitale. Il est responsable du développement et du
+        rayonnement d’OCTO en Provence.
 
 
-      Il possède plus de 8 années d'expérience en management et conseil en méthodologie et transformation digitale.
+        Nicolas est passionné par l’analyse des problématiques culturelles, des comportements Humains et des impacts
+        liés aux révolutions et disruptions numériques. Grâce à une communication simple et efficace
+        (communication non violente, communication interactive…), il fédère et embarque ses clients dans de nouveaux modes
+        de travail centrés sur la collaboration et sur des approches pragmatiques orientées
+        solutions (Solutions Focus Coaching).
 
 
-      Nicolas est passionné par l’analyse des problématiques culturelles, des comportements Humains et des impacts liés aux révolutions et disruptions numériques.
+        Il est également un fervent défenseur des méthodes UX centrées sur l’utilisateur
+        (Service Design, Customer Journey, observations naïves, Personas, « vis ma vie », etc.) pour créer et/ou améliorer
+        les services/produits pour les rendre plus utiles, utilisables, intuitifs, efficaces et désirables du point de vue
+        du client.
 
 
-      Grâce à une communication simple et efficace (communication non violente, communication interactive…), il fédère et embarque ses clients dans de nouveaux modes de travail centrés sur la collaboration et sur des approches pragmatiques orientées solutions (Solutions Focus Coaching).
+        Nicolas est également formé à la facilitation et les nouvelles approches participatives
+        (« Technology of Participation (ToP-ICA) »). En tant que coach, il aide ses clients à déployer l’agile et mener
+        à bien les changements dans leurs organisations et/ou leurs équipes. Son travail est fait de simplicité,
+        de pragmatisme, d’écoute et de passion pour le changement, la remise en question et l’amélioration continue.
 
 
-      Il est également un fervent défenseur des méthodes UX centrées sur l’utilisateur (Service Design, Customer Journey, observations naïves, Personas, « vis ma vie », etc.) pour créer et/ou améliorer les services/produits pour les rendre plus utiles, utilisables, intuitifs, efficaces et désirables du point de vue du client.
-
-
-      Nicolas est également formé à la facilitation et les nouvelles approches participatives (« Technology of Participation (ToP-ICA) »). En tant que coach, il aide ses clients à mener à bien les changements dans leurs organisations et/ou leurs équipes. Son travail est fait de simplicité, de pragmatisme, d’écoute et de passion pour le changement, la remise en question et l’amélioration continue.
-
-
-      Il apporte également un regard pertinent sur l’utilisation des nouvelles méthodologies et technologies. Par exemple, il accompagné Thales dans le cadrage (processus, méthodologie, gouvernance, etc.) et le lancement de sa Digital Factory, la SNCF, dans le cadrage de nouveaux produits numériques innovants…
+        Il apporte également un regard pertinent sur l’utilisation des nouvelles méthodologies et technologies.
+        Par exemple, il accompagné Thales dans le cadrage (processus, méthodologie, gouvernance, etc.) et le
+        lancement de sa Digital Factory, la SNCF, dans le cadrage de nouveaux produits numériques innovants…
 
   image_url: https://s3.amazonaws.com/askbob/users/photos/296/big/CINE0758.jpg?1454080867
   publications:
   - {title: 'Compte-rendu du séminaire sur les Liberating Structures (novembre 2018)', url: 'https://blog.octo.com/compte-rendu-du-seminaire-sur-les-liberating-structures-novembre-2018/'}
   - {title:  'L’approche Solutions Focus: une approche puissante, simple mais subtile du changement positif des personnes, des équipes et des organisations.', url: 'https://blog.octo.com/et-si-le-probleme-etait-la-solution-version-longue-lapproche-solutions-focus-une-approche-puissante-simple-mais-subtile-du-changement-positif-des-personnes-des-equipes-et-des-organisa/'}
+  - {title:  'Introduction à la Communication NonViolente', url: 'https://blog.octo.com/introduction-a-la-communication-non-violente/'}
+  - {title:  'Les formes de communication bloquant la compassion et l’empathie', url: 'https://blog.octo.com/les-formes-de-communication-bloquant-la-compassion-et-lempathie/'}
+  - {title:  'Première composante de la Communication NonViolente (CNV) : OBSERVER SANS ÉVALUER', url: 'https://blog.octo.com/premiere-composante-de-la-cnv-observer-sans-evaluer/'}
+  - {title:  'Deuxième composante de la Communication NonViolente (CNV) : IDENTIFIER ET EXPRIMER SES SENTIMENTS', url: 'https://blog.octo.com/deuxieme-composante-de-la-communication-non-violente-cnv-identifier-et-exprimer-ses-sentiments/'}
+  - {title:  'Troisième composante de la Communication NonViolente (CNV) : EXPRIMER SES BESOINS ET ASSUMER LA RESPONSABILITÉ DE SES SENTIMENTS', url: 'https://blog.octo.com/troisieme-composante-de-la-communication-non-violente-cnv-exprimer-ses-besoins-et-assumer-la-responsabilite-de-ses-sentiments/'}
+  - {title:  'Quatrième composante de la Communication NonViolente (CNV) : DEMANDER CE QUI CONTRIBUE À NOTRE BIEN-ÊTRE', url: 'https://blog.octo.com/quatrieme-composante-de-la-communication-nonviolente-cnv-demander-ce-qui-contribue-a-notre-bien-etre/'}
+  - {title:  'Épilogue sur la Communication NonViolente (CNV)', url: 'https://blog.octo.com/epilogue-sur-la-communication-nonviolente-cnv/'}
+  - {title:  'La patrouille de France : une école d’excellence pour booster le management en entreprise !', url: 'https://blog.octo.com/la-patrouille-de-france-une-ecole-dexcellence-pour-booster-le-management-en-entreprise/'}
+  - {title:  'Mettez un ACE à votre transformation !', url: 'https://blog.octo.com/mettez-un-ace-a-votre-transformation/'}

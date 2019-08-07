@@ -101,8 +101,8 @@ title: OCTO Provence
     <div class="col">
         <div class="row row--vertical">
             <div class="col">
-                <div class="box content join-us">
-                    <h3 class="title--section">OCTO recrute en Provence.</h3>
+                <h3 class="title--section join-us">OCTO recrute en Provence.</h3>
+                <div>
                     <p>Plus qu'une <b class="emphase">Great Place To Work</b>, OCTO se vit en interne comme une
                         véritable <b class="emphase">Best Place To Grow</b>.</p>
 
@@ -143,12 +143,10 @@ title: OCTO Provence
     <div class="col">
         <div class="box content">
             <h3 class="title--section">L'équipe.</h3>
-            <div class="row padded">
-                <div class="flipcards">
-                    {% for member in site.data.people %}
-                    {% include member.html member=member %}
-                    {% endfor %}
-                </div>
+            <div class="row">
+                {% for member in site.data.people %}
+                {% include member.html member=member %}
+                {% endfor %}
             </div>
         </div>
     </div>
