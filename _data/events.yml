@@ -1,13 +1,9 @@
-- title: Making Architecture Explicit
+- title: Pastis Tech #5
   description: |
-      Travaux.com accueille Herberto GRACA pour une présentation "Making Architecture Explicit".
-  date: Avril 25
-  url: https://www.eventbrite.fr/e/billets-talk-making-architecture-explicit-59432416959
-  tag: meetups
-
-- title: Lean Coffee n°3
-  description: |
-      L'association Esprit Agile organise une soirée d'échanges entre pratiquants au format Lean Coffee.
-  date: Avril 29
-  url: https://www.meetup.com/fr-FR/Esprit-Agile-Aix-Marseille/
+      Pastis.tech est une communauté qui organise des meetups techs suivi d'un apéro.
+      Un tech c'est un développeur, un devops, un datascientist, un electronicien ...
+      Le format est simple : 4 lightning talks techs sur des sujets variés.
+      Se rencontrer, partager, apprendre et s'amuser c'est tout ce qu'on veut à pastis.tech
+  date: Septembre 12
+  url: https://www.meetup.com/fr-FR/pastistech/events/263071391
   tag: meetups

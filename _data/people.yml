@@ -3,14 +3,18 @@
   firstname: Fabien
   role: Ingénieur Devops
   bio: |
-      Issu d’un parcours atypique, c’est la curiosité et son appétence pour l’informatique qui lui ont permis après 10 ans d’expérience d’acquérir des compétences en développement, infrastructure, exploitation et usine logicielle.
+      Fabien a 10 ans d’expérience dans le monde de la production logicielle qui lui ont permis d’acquérir des compétences DevOps : développement, infrastructure, exploitation et usine de développement logiciel et de déploiement.
 
-      Son spectre assez large de compétence lui a permis de cerner les problématiques devops et de traiter les sujets tels que :
-      * La conception et le développement en mode craftsmanship
-      * Définition d’architectures techniques et logicielles
-      * Etude et mise en place d’outil d’exploitation et d’usine logicielle
+      Curieux et passionné, son spectre assez large de compétences lui permet d’appréhender et de comprendre les problématiques DevOps et les appliquer sur le terrain tout en s’adaptant au contexte et à la réalité technologique de ses clients. 
 
-      Dernièrement Fabien est intervenu au sein d’un client pour accompagner leur équipe à la mise en place de process devops.
+      Fabien a pu traiter des sujets tels que : 
+ 
+      * La conception et le développement en mode Craftsmanship (Java, nodejs, principes SOLID KISS)
+      * Définition et mise en place d’architectures techniques et logicielles (CQRS, ELK)
+      * Etude et mise en place d’outil d’exploitation et d’usine logicielle (GitLab, SonarQube, Archiva, Jenkins, Icescrum)
+
+      Dernièrement Fabien est intervenu au sein d’IT-CE pour accompagner leurs équipes à la mise en place de process DevOps ainsi et d’une solution d’infrastructure basée sur Openshift.
+      Fabien est très attaché à la qualité de code et à l’automatisation des process et activités répétitives (CI/CD, Tests unitaires automatisés…) pour améliorer la qualité technique des produits, donner du confort aux équipes de développement et leur permettre de se focaliser sur les zones où elles apporteront le plus de valeur pour l’utilisateur final.
 
   image_url: https://s3.amazonaws.com/askbob/users/photos/1650/big/TRAF.jpg?1558079725
   publications:
