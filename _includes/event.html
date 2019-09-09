@@ -1,9 +1,11 @@
 <div class="event" itemscope itemtype="http://schema.org/Event">
     <div class="event-title row">
         <div class="event-title--date text-center" itemprop="startDate" content="{{event.date}}">
-            {% assign date = event.date | date: "%B %d" | split: " " %}
+            {% assign date = event.date | date: "%B %d %B %d" | split: " " %}
             <span>{{date[0]}}</span>
             <span>{{date[1]}}</span>
+	    <span>{{date[3]}}</span>
+	    <span>{{date[4]}}</span>
         </div>
         <div class="event-title--content col">
             <a href="{{event.url}}" target="_blank" itemprop="name">{{event.title}}</a>
