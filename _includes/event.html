@@ -1,7 +1,7 @@
 <div class="event" itemscope itemtype="http://schema.org/Event">
     <div class="event-title row">
         <div class="event-title--date text-center" itemprop="startDate" content="{{event.date}}">
-            {% assign date = event.date | date: "%B %d" | split: " " %}
+            {% assign date = event.date | split: " " %}
             <span>{{date[0]}}</span>
             <span>{{date[1]}}</span>
         </div>
