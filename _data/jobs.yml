@@ -1,7 +1,7 @@
 - title: Architecte (H/F)
   description: |
       Du sol au plafond, aidons nos clients à monter des SI de qualité !
-  url: https://rejoins.octo.com/job-offers/34
+  url: https://rejoins.octo.com/job-offers/99
   image: archi
 
 - title: Tech Lead (H/F)
@@ -9,4 +9,22 @@
       Expert, Facilitateur, Coach, Formateur : ça vous parle ?
   url: https://rejoins.octo.com/job-offers/36
   image: craft
+
+- title: Coach Agile (H/F)
+  description: |
+     Vous faites partie de ceux qui veulent diffuser leurs valeurs et savoir-faire ?
+  url: https://rejoins.octo.com/job-offers/100 
+  image: agile 
+
+- title: Artisan Codeur Craft (H/F)
+  description: |
+    Vous êtes un artisan qui cultive son art, et cherchez constamment de meilleures manières de fair e ?
+  url: https://rejoins.octo.com/job-offers/152
+  image: craft
+
+- title: Ingénieur Ops (H/F)
+  description: |
+     Vous aimez avoir les mains dans la cambouis mais avec une vision panoramique de ce qui vous entoure ? 
+  url: https://rejoins.octo.com/job-offers/148
+  image: ops
 
