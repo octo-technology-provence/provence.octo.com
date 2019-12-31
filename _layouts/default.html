@@ -37,7 +37,14 @@
             })
         });
     </script>
-
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-142862370-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-142862370-1');
+    </script>
     {% if jekyll.environment == 'production' and site.google_analytics %}
     {% include google-analytics.html %}
     {% endif %}
@@ -55,6 +62,14 @@
     {% if page.name == 'index.html' %}
     <div class="text-center banner">
         <img src="{{ '/assets/images/header.png' | absolute_url }}">
+    </div>
+        <div class="text-center">
+        <img src="/assets/images/motto.png" class="header-image"><br>
+    </div>
+    <div class="why">
+        <div class="wrapper">
+            <p class="text-center">Consommez <span class="emphase">local</span> et <span class="emphase">durable</span> :<br> OCTO Provence, le cabinet de conseil tech, méthodo et UX en circuit-court !</p>
+        </div>
     </div>
     {% endif %}
 </header>
