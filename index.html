@@ -6,8 +6,9 @@ title: Vivre l'expérience OCTO sur Aix - Marseille
 <div class="row padded">
     <div class="col col--important">
         <div class="row row--vertical">
-            <div id="col-left" class="col">
+            <div class="col">
                 <div class="box box--lined">
+                    <h3 class="title--section">À propos.</h3>
                     <div class="content">
                         <div>
                             <h3>Un monde plus complexe et plus digital</h3>
@@ -73,23 +74,13 @@ title: Vivre l'expérience OCTO sur Aix - Marseille
                                 </ul>
                             </div>
                         </div>
-                    </div>
                 </div>
             </div>
-            <div class="col">
-                <div class="box content">
-                    <h3 class="title--section">Faisons connaissance !</h3>
-                    <div class="content">
-                        <h4 class="text-center">Vous êtes curieux, souhaitez explorer un sujet, être challengé sur une
-                            pratique : <a
-                                href="mailto:provence@octo.com"><br><br>Invitez-nous à déjeuner ! ;)</a>
-                        </h4>
-                    </div>
-                </div>
-            </div>
+
             <div class="col">
                 <div class="box content">
                     <h3 class="title--section">Nos BBL.</h3>
+
                     {% for bbl in site.data.bbl %}
                     {% include bbl.html bbl=bbl %}
                     {% endfor %}
@@ -101,8 +92,9 @@ title: Vivre l'expérience OCTO sur Aix - Marseille
     <div class="col">
         <div class="row row--vertical">
             <div class="col">
-                <h3 class="title--section join-us">OCTO recrute en Provence.</h3>
-                <div>
+                <div class="box content">
+                    <h2>OCTO recrute en Provence.</h2>
+
                     <p>Plus qu'une <b class="emphase">Great Place To Work</b>, OCTO se vit en interne comme une
                         véritable <b class="emphase">Best Place To Grow</b>.</p>
 
@@ -123,7 +115,7 @@ title: Vivre l'expérience OCTO sur Aix - Marseille
 
             <div class="col">
                 <div class="box">
-                    <h3 class="title--section">Evènements.</h3>
+                    <h3 class="title--section">Évènements.</h3>
 
                     <div class="content">
                         {% unless site.data.events %}
@@ -147,7 +139,7 @@ title: Vivre l'expérience OCTO sur Aix - Marseille
 
             <div class="row">
                 {% for people in site.data.people %}
-                <div class="col people-card">
+                <a class="col people-card" href="/equipe.html#{{people.poly}}">
                     <h4 class="text-center">
                         {{people.name}}
                         <br>
@@ -156,7 +148,7 @@ title: Vivre l'expérience OCTO sur Aix - Marseille
                     <img
                         src="{{ '/assets/images/people/' | append: people.poly | append: '.jpg' | absolute_url }}"
                         alt="{{people.name}}">
-                </div>
+                </a>
                 {% endfor %}
             </div>
         </div>

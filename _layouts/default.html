@@ -4,12 +4,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, minimum-scale=1, user-scalable=no, minimal-ui">
-    <meta title="OCTO Provence : Aix-en-Provence, Marseille">
-    <meta name="referrer" content="origin">
+
     <title>{% if page.title %}{{ page.title | escape }} | {{ site.title | escape }}{% else %}{{ site.title | escape }}{%
         endif %}</title>
     <meta name="description"
-          content="{{default: site.description | strip_html | normalize_whitespace | truncate: 240 | escape }}">
+          content="{{ page.excerpt | default: content | default: site.description | strip_html | normalize_whitespace | truncate: 240 | escape }}">
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-capable" content="yes">
 
@@ -38,36 +37,24 @@
             })
         });
     </script>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-142862370-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'UA-142862370-1');
-    </script>
-
 
     {% if jekyll.environment == 'production' and site.google_analytics %}
     {% include google-analytics.html %}
     {% endif %}
+
+    {% seo title=false %}
 </head>
 
 <body class="page-{{page.name | split: '.' | first}}">
-
 <header>
+
     <div class="wrapper col">
-        <a href="/"><img src="assets/images/brand.png" class="brand-image" style="width:40%"></a>
+        <a href="/"><img src="{{ '/assets/images/brand.svg' | absolute_url }}" class="brand-image"></a>
     </div>
+
     {% if page.name == 'index.html' %}
-    <div class="text-center">
-        <img src="/assets/images/motto.png" class="header-image"><br>
-    </div>
-    <div class="why">
-        <div class="wrapper">
-            <p class="text-center">Consommez <span class="emphase">local</span> et <span class="emphase">durable</span> :<br> OCTO Provence, le cabinet de conseil tech, méthodo et UX en circuit-court !</p>
-        </div>
+    <div class="text-center banner">
+        <img src="{{ '/assets/images/header.svg' | absolute_url }}">
     </div>
     {% endif %}
 </header>
@@ -81,11 +68,11 @@
         <div class="row row--alignCenter">
             <div class="col" itemscope itemtype="http://schema.org/LocalBusiness">
                 <h2 itemprop="name">{{site.title}}</h2>
-                <meta itemprop="image" content="{{ '/brand.png' | absolute_url }}" />
+                <meta itemprop="image" content="{{ '/brand.png' | absolute_url }}"/>
 
                 <p itemscope itemprop="address" itemtype="http://schema.org/PostalAddress">
-                    <span itemprop="streetAddress">113 rue de la République</span><br>
-                    <span itemprop="postalCode">13002</span> <span itemprop="addressLocality">Marseille</span>
+                    <span itemprop="streetAddress">1 place de la Gare</span><br>
+                    <span itemprop="postalCode">59000</span> <span itemprop="addressLocality">Lille</span>
                 </p>
 
                 <a href="mailto:{{site.email}}" class="btn" itemprop="email" content="{{site.email}}">Contactez-nous</a>

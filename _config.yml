@@ -9,8 +9,11 @@ google_analytics:
 twitter:
     username: octoprovence
     card: summary
-
-
+social:
+    name: OCTO chti
+    links:
+        - https://twitter.com/OctoProvence
+        - https://github.com/octo-technology-provence
 markdown: kramdown
 theme: minima
 plugins:
