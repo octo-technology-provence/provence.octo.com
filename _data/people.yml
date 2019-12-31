@@ -1,61 +1,41 @@
 - poly: ECAM
   name: Muriel Ecarot
-  firstname: Muriel
-  role: Consultante Senior
-  image_url: assets/images/people/ECAM.jpg
+  job: Consultante Senior
 
 - poly: BOQU
   name: Quentin Bouissou
-  firstname: Quentin
-  role: UX Lead
-  image_url: assets/images/people/BOQU.jpg
+  job: UX Lead
 
 - poly: BLAA
   name: Ludovic Blaas
-  firstname: Ludovic
-  role: Manager - Coach Expert
-  image_url: assets/images/people/BLAA.jpg
+  job: Manager - Coach Expert
 
 - poly: VERT
   name: Thibert Travert
-  firstname: Thibert
-  role: Consultant
-  image_url: assets/images/people/VERT.jpg
+  job: Consultant
 
 - poly: TRAF
   name: Fabien Travaglia
-  firstname: Fabien
-  role: Ingénieur Devops
-  image_url: assets/images/people/TRAF.jpg
+  job: Ingénieur Devops
 
 - poly: GAMA
   name: Gaël Mareau
-  firstname: Gaël
-  role: Facilitateur - Coach Agile
-  image_url: assets/images/people/GAMA.jpg
+  job: Facilitateur - Coach Agile
 
 - poly: TLI
   name: Thomas Lissajoux
-  firstname: Thomas
-  role: Catalyste - Coach Agile - Expert Lean
-  image_url: assets/images/people/TLI.jpg
+  job: Catalyste - Coach Agile - Expert Lean
 
 - poly: MAK
   name: Michael Akbaraly
-  firstname: Michael
-  role: Tech Lead - Expert Craft
-  image_url: assets/images/people/MAK.jpg
+  job: Tech Lead - Expert Craft
 
 - poly: JDB
   name: Jean-Damien Blanc
-  firstname: Jean-Damien
-  role: Responsable Business et développement des partenariats
-  image_url: assets/images/people/JDB.jpg
+  job: Responsable Business et développement des partenariats
 
 - poly: NCA
   name: Nicolas Cappello
-  firstname: Nicolas
-  role: Leader du campement Provence - Coach - Facilitateur
-  image_url: assets/images/people/NCA.jpg
+  job: Leader du campement Provence - Coach - Facilitateur
 
 
