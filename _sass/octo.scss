@@ -120,7 +120,7 @@ img {
 }
 
 .emphase {
-    font-family: "Avenir LT Com 55 Roman","Arial Black",Gadget,sans-serif;
+    font-family: $font-headline;
 }
 
 .row {
@@ -194,17 +194,16 @@ img {
 
 .content {
     padding: $padding;
+
+    > h2:first-child {
+        margin-top: 0;
+    }
 }
 
-@media screen and (min-width: $desktop-size) {
-    h2.title--section {
-        font-size: 5rem;
-        margin-top: -4.1rem;
-    }
-
+@media screen and (min-width: $tablet-size) {
     h3.title--section {
-        font-size: 2.2rem;
-        margin-top: -3.25rem;
+        font-size: 3rem;
+        margin-top: -2.5rem;
     }
 
     .col {
@@ -226,10 +225,17 @@ img {
     }
 
     .content {
-       // padding: $desktop-padding;
+        padding: $desktop-padding;
     }
 
     .box--lined {
         padding: $desktop-padding;
+    }
+}
+
+@media screen and (min-width: $desktop-size) {
+    h3.title--section {
+        font-size: 3.5rem;
+        margin-top: -2.9rem;
     }
 }
