@@ -147,7 +147,7 @@ title: Vivre l'expérience OCTO sur Aix - Marseille
 
             <div class="row">
                 {% for people in site.data.people %}
-                <a class="col people-card" href="/equipe.html#{{people.poly}}">
+                <div class="col people-card">
                     <h4 class="text-center">
                         {{people.name}}
                         <br>
@@ -156,7 +156,7 @@ title: Vivre l'expérience OCTO sur Aix - Marseille
                     <img
                         src="{{ '/assets/images/people/' | append: people.poly | append: '.jpg' | absolute_url }}"
                         alt="{{people.name}}">
-                </a>
+                </div>
                 {% endfor %}
             </div>
         </div>
