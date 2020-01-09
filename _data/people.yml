@@ -1,6 +1,10 @@
+- poly: MAZ
+  name : Mathieu Magrez
+  job: UX Lead
+
 - poly: ECAM
   name: Muriel Ecarot
-  job: Consultante Senior
+  job: Product manager
 
 - poly: BOQU
   name: Quentin Bouissou
@@ -12,7 +16,7 @@
 
 - poly: VERT
   name: Thibert Travert
-  job: Consultant
+  job: Developpeur
 
 - poly: TRAF
   name: Fabien Travaglia
