@@ -21,3 +21,4 @@ plugins:
 exclude:
     - Gemfile
     - Gemfile.lock
+categories: [newsletter]

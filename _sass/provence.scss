@@ -270,3 +270,33 @@ header {
         width: 85%;
     }
 }
+
+// newsletter
+.news {
+  h4 {
+      margin-bottom: 0;
+  }
+}
+
+h4 .emphase {
+  color: $brand-light-color;
+}
+
+ .news-author {
+  margin: 0;
+  font-style:italic;
+}
+
+.news-img {
+
+  width: 100%;
+
+  .left {
+      padding-left: $padding;
+
+  }
+
+  .right {
+      padding-right: $padding;
+    }
+}
