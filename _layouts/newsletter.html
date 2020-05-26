@@ -1,0 +1,126 @@
+---
+layout: default
+---
+<div class="row padded">
+    <div class="col col--important">
+        <div class="row row--vertical">
+            <div class="col">
+                <div class="box box--lined">
+                    <h3 class="title--section">{{ page.title }}.</h3>
+                    <div class="content news">
+                        <div>
+                            <p class="emphase">
+                                La curation en provençal dans le titre ! Chaque mois, OCTO Provence vous partage
+                                sa curation et sa veille sur des sujets techs, méthodo, UX et change.
+                            </p>
+                            {{ content }}
+                        </div>
+                        {% if page.octoTopics %}
+                        <hr />
+                        {% for content in page.octoTopics %}
+                        <div>
+                            <h3>{{ content.title }}</h3>
+                            <table>
+                                <tr>
+                                    <td width="60%">
+                                        <p>{{ content.text }}
+                                            <span><a target="_blank" href="{{ content.url }}" onclick="trackOutboundLink('{{ content.url }}'); " target="_blank"> {{ content.cta }}</a></span>
+                                        </p>
+                                    </td>
+                                    <td width="40%">
+                                        <div class="news-img">
+                                            <img class="left" src="{{ content.image }}" />
+                                        </div>
+                                    </td>
+                                <tr>
+                            </table>
+                        </div>
+                        {% endfor %}
+                        {% endif %}
+                        {% if page.topics%}
+                        {% for topic in page.topics %}
+                        <hr />
+                        <div>
+                            <h3>{{ topic.title}}</h3>
+                            {{ topic.intro }}
+                            {% for article in topic.articles %}
+                            <h4><a target="_blank" href="{{ article.url }}" onclick="trackOutboundLink('{{ article.url }}'); " target="_blank"><span class="emphase">{{ article.title }}</span></a></h4>
+                            <span class="news-author"> de {{ article.author }}</span>
+                            <p><b class="emphase">tl;dr :</b> {{ article.text }}</p>
+
+                            {% endfor %}
+                            {% if topic.addLinks %}
+                            <p><b class="emphase">Lectures additionnelles :</b></p>
+                            <ul>
+                                {% for link in topic.addLinks %}
+                                <li><a href="{{ link.url }}" onclick="trackOutboundLink('{{ link.url }}'); " target="_blank">{{ link.title }}</a></li>
+                                {% endfor %}
+                            </ul>
+                            {% endif %}
+                        </div>
+                        {% endfor %}
+                        {% endif %}
+                        {% if page.addLinks %}
+                        <hr />
+                        <div>
+                            <h4>Sur d'autres sujets, on a aussi aimé :</h4>
+                            <ul>
+                                {% for link in page.addLinks %}
+                                <li><a href="{{ link.url }}" onclick="trackOutboundLink('{{ link.url }}'); " target="_blank">
+                                        {{ link.title }}</a>
+                                    {% if link.tags %}
+                                    {% for tag in link.tags %}<img class="news-tag" src="/assets/images/tags/{{ tag }}.jpg" />{% endfor %}
+                                    {% endif %}
+                                </li>
+
+                                {% endfor %}
+                            </ul>
+                        </div>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col">
+        <div class="row row--vertical">
+            <div class="col">
+                <div class="box content">
+                    <h2>OCTO recrute en Provence.</h2>
+
+                    <p>Plus qu'une <b class="emphase">Great Place To Work</b>, OCTO se vit en interne comme une
+                        véritable <b class="emphase">Best Place To Grow</b>.</p>
+
+                    <a href="join-us.html" class="btn">Rejoignez-nous !</a>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="box">
+                    <h3 class="title--section">Suivez-nous.</h3>
+                    <div class="content">
+                        <a class="twitter-timeline" data-height="600" href="https://twitter.com/octoprovence?ref_src=twsrc%5Etfw">Tweets by octoprovence</a>
+                        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="box">
+                    <h3 class="title--section">Évènements.</h3>
+
+                    <div class="content">
+                        {% unless site.data.events %}
+                        <small>Aucun évenement pour le moment.</small>
+                        {% endunless %}
+
+                        {% for event in site.data.events limit: 3 %}
+                        {% include event.html event=event %}
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
