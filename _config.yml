@@ -5,7 +5,7 @@ description: |
     OCTO Provence, le cabinet de conseil tech, méthodo et UX en circuit-court sur la région Aix - Marseille !
 baseurl: ''
 url: 'https://provence.octo.com'
-google_analytics:
+google_analytics: UA-142862370-1
 twitter:
     username: octoprovence
     card: summary

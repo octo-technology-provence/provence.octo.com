@@ -37,14 +37,6 @@
             })
         });
     </script>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-142862370-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'UA-142862370-1');
-    </script>
     {% if jekyll.environment == 'production' and site.google_analytics %}
     {% include google-analytics.html %}
     {% endif %}
@@ -104,21 +96,8 @@
         </div>
     </div>
 </footer>
-<script>
-/**
-* Fonction de suivi des clics sur des liens sortants dans Analytics.
-* Cette fonction utilise une chaîne d'URL valide comme argument et se sert de cette chaîne d'URL
-* comme libellé d'événement. Configurer la méthode de transport sur 'beacon' permet d'envoyer le clic
-* au moyen de 'navigator.sendBeacon' dans les navigateurs compatibles.
-*/
-var trackOutboundLink = function(url) {
-  gtag ('event', 'clic', {
-    'event_category': 'sortant',
-    'event_label': url,
-    'transport_type': 'balise',
-    'event_callback': function(){return true;}
-  });
-}
-</script>
+{% if jekyll.environment == 'production' and site.google_analytics %}
+{% include google-trackOutboundLink.html %}
+{% endif %}
 </body>
 </html>
