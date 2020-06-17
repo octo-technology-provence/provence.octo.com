@@ -302,7 +302,17 @@ h4 .emphase {
 }
 
 .news-tag {
-  width:auto;
-  height:15px;
-  margin-left: $padding-band;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  color: white;
+  border: 1px solid $brand-light-color;
+  background-color: $brand-light-color;
+  padding: 1px 5px;
+  margin-left: $padding-band * 2;
+  vertical-align: super;
+  font-size: smaller;
+  font-weight: bold;
+  text-align: center;
+  white-space: nowrap;
 }
