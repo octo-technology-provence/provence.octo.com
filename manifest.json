@@ -1,0 +1,23 @@
+{
+  "short_name": "Octo Provence",
+  "name": "Octo Provence",
+  "theme_color": "#0E2356",
+  "background_color": "#0E2356",
+  "display": "fullscreen",
+  "scope": "./",
+  "icons": [
+    {
+      "src": "assets/images/octoProvence192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "assets/images/octoProvence512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    }
+  ],
+  "start_url": "/"
+}

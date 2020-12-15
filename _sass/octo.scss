@@ -10,6 +10,7 @@
     url("../assets/fonts/AvenirLTCom-Black.svg#AvenirLTCom-Black") format("svg");
     font-weight: 900;
     font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
@@ -22,6 +23,7 @@
     url("../assets/fonts/AvenirLTCom-Heavy.svg#AvenirLTCom-Heavy") format("svg");
     font-weight: bold;
     font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
@@ -34,6 +36,7 @@
     url("../assets/fonts/AvenirLTCom-Light.svg#AvenirLTCom-Light") format("svg");
     font-weight: 300;
     font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
@@ -46,6 +49,7 @@
     url("../assets/fonts/CutoffPro-BoldItalic.svg#CutoffPro-BoldItalic") format("svg");
     font-weight: bold;
     font-style: italic;
+    font-display: swap;
 }
 
 *, *:before, *:after {

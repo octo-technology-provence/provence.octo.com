@@ -35,7 +35,7 @@ title: Vivre l'expérience OCTO sur Aix - Marseille
                         </td>
                         <td width="50%">
                         <div class="camp-img">
-                            <img src="{{ '/assets/images/camp.png' | absolute_url }}" alt="camp" usemap="#camp">
+                            <img src="{{ '/assets/images/camp.webp' | absolute_url }}" alt="camp" usemap="#camp">
                         </div>
                         </td>
                         </tr>
@@ -131,7 +131,6 @@ title: Vivre l'expérience OCTO sur Aix - Marseille
             <div class="col">
                 <div class="box">
                     <h3 class="title--section">Évènements.</h3>
-
                     <div class="content">
                         {% unless site.data.events %}
                         <small>Aucun évenement pour le moment.</small>
@@ -156,7 +155,7 @@ title: Vivre l'expérience OCTO sur Aix - Marseille
                 {% for people in site.data.people %}
                 <div class="col people-card" >
                     <img
-                        src="{{ '/assets/images/people/' | append: people.poly | append: '.jpg' | absolute_url }}"
+                        src="{{ '/assets/images/people/' | append: people.poly | append: '.webp' | absolute_url }}"
                         alt="{{people.name}}">
                     <h4 class="text-center">
                         {{people.name}}
