@@ -1,7 +1,3 @@
-- poly: MAZ
-  name : Mathieu Magrez
-  job: UX Lead
-
 - poly: ECAM
   name: Muriel Ecarot
   job: Product manager
@@ -16,11 +12,11 @@
 
 - poly: VERT
   name: Thibert Travert
-  job: Développeur
+  job: Développeur FullStack
 
 - poly: TRAF
   name: Fabien Travaglia
-  job: Ingénieur Devops
+  job: Ingénieur DevOps
 
 - poly: GAMA
   name: Gaël Mareau
@@ -48,5 +44,9 @@
 
 - poly: HUGH
   name: Hugo Houel
-  job: Développeur
+  job: Développeur FullStack
+
+- poly: NICM
+  name : Nicolas Chazeau-Mura
+  job: Développeur FullStack - Data Scientist
 
