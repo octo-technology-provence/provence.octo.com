@@ -12,33 +12,33 @@ title: Vivre l'expérience OCTO sur Aix - Marseille
                     <h3 class="title--section">À propos.</h3>
                     <div class="content">
                         <table>
-                        <tr>
-                        <td width="50%">
-                        <div>
-                                                       <h3>Un monde plus complexe et plus digital</h3>
-                            <p>Nous sommes face à un monde imprévisible, ambigu, volatile et incertain, où la hiérarchie
-                                et l’organisation
-                                vue comme une machine trouvent leurs limites.
-                                Le digital s’est immiscé depuis 20ans au coeur des organisations, des process et des
-                                projets, porteur à la
-                                fois d’opportunités et de rigidités nouvelles.</p>
-                            <h3> Nous avons besoin de nouveaux réflexes</h3>
-                            <p>
-                                Plus que des bonnes pratiques, des modèles simplistes et rassurants ou des réponses
-                                immédiates “sur
-                                étagère”, vous avez besoin de faire évoluer votre culture, vos modes de fonctionnement
-                                et comportements pour
-                                développer vos capacités de collaboration, d'adaptation au changement et dépasser les
-                                blocages que vous
-                                rencontrez.</p>
-                        </div>
-                        </td>
-                        <td width="50%">
-                        <div class="camp-img">
-                            <img src="{{ '/assets/images/camp.png' | absolute_url }}" alt="camp" usemap="#camp">
-                        </div>
-                        </td>
-                        </tr>
+                            <tr>
+                                <td>
+                                    <div>
+                                                                   <h3>Un monde plus complexe et plus digital</h3>
+                                        <p>Nous sommes face à un monde imprévisible, ambigu, volatile et incertain, où la hiérarchie
+                                            et l’organisation
+                                            vue comme une machine trouvent leurs limites.
+                                            Le digital s’est immiscé depuis 20ans au coeur des organisations, des process et des
+                                            projets, porteur à la
+                                            fois d’opportunités et de rigidités nouvelles.</p>
+                                        <h3> Nous avons besoin de nouveaux réflexes</h3>
+                                        <p>
+                                            Plus que des bonnes pratiques, des modèles simplistes et rassurants ou des réponses
+                                            immédiates “sur
+                                            étagère”, vous avez besoin de faire évoluer votre culture, vos modes de fonctionnement
+                                            et comportements pour
+                                            développer vos capacités de collaboration, d'adaptation au changement et dépasser les
+                                            blocages que vous
+                                            rencontrez.</p>
+                                    </div>
+                                </td>
+                                <!--<td width="50%">
+                                    <div class="camp-img">
+                                        <img src="{{ '/assets/images/camp.png' | absolute_url }}" alt="camp" usemap="#camp">
+                                    </div>
+                                </td>-->
+                            </tr>
                         </table>
 			<div>
                             <h3>Bref, nous devons “changer d’OS”</h3>
@@ -110,12 +110,12 @@ title: Vivre l'expérience OCTO sur Aix - Marseille
                 <div class="box content">
                     <p>Plus qu'une <b class="emphase">Great Place To Work</b>, OCTO se vit en interne comme une
                         véritable <b class="emphase">Best Place To Grow</b>.</p>
-                    <img src="assets/images/GPTW.jpg">
+                    <img src="assets/images/GPTW.jpg" alt="Great Place To Work">
                 </div>
             </div>
             <div class="col">
                 <div class="box content">
-                   <img src="assets/images/bCorp.jpg">
+                   <img src="assets/images/bCorp.jpg" alt="certifcation BCorp">
                 </div>
             </div>
 
@@ -155,7 +155,7 @@ title: Vivre l'expérience OCTO sur Aix - Marseille
 
             <div class="row">
                 {% for people in site.data.people %}
-                <div class="col people-card" >
+                <div class="col people-card">
                     <img
                         src="{{ '/assets/images/people/' | append: people.poly | append: '.jpg' | absolute_url }}"
                         alt="{{people.name}}">

@@ -72,7 +72,7 @@ header {
 
 .camp-img {
     float: left;
-    width: 100%;
+    width: 20%;
     margin-right: $padding;
 }
 
@@ -81,12 +81,13 @@ header {
 }
 
 .people-card {
-    flex-basis: calc(100% / 2 - 2rem);
+    flex-basis: calc(100% - 2rem);
     margin: 1rem;
     text-decoration: none;
 
     h4 {
         min-height: 4.5rem;
+        font-size: 1rem;
     }
 
     img {
@@ -250,7 +251,7 @@ header {
     }
 
     .camp-img {
-        width: 100%;
+        width: 20%;
     }
 
     .bbl-title {
@@ -258,16 +259,20 @@ header {
     }
 
     .people-card {
-        flex-basis: calc(100% / 4 - 2rem);
+        flex-basis: calc(100% / 5 - 2rem);
         padding: 0 1rem !important;
         flex-grow: 0;
         flex-shrink: 0;
     }
 }
 
-@media screen and (min-width: $desktop-size) {
+@media screen and (max-width: $desktop-size) {
     .wrapper {
         width: 85%;
+    }
+
+    .camp-img {
+        display: none;
     }
 }
 
