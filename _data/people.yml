@@ -1,6 +1,6 @@
 - poly: ECAM
   name: Muriel Ecarot
-  job: Product manager
+  job: Product manager / UX Designer
 
 - poly: BOQU
   name: Quentin Bouissou
@@ -45,4 +45,8 @@
 - poly: NICM
   name : Nicolas Chazeau-Mura
   job: Développeur FullStack - Data Scientist
+
+- poly: JEBE
+  name : Jérôme Bénaud
+  job: UX Designer
 
